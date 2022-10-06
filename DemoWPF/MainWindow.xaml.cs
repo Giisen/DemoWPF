@@ -159,7 +159,7 @@ namespace DemoWPF
             int One=int.Parse(split[0]);
             int Two=int.Parse(split[1]);
             int result = One + Two;
-
+            
             MinText.Text=result.ToString();
 
         }
